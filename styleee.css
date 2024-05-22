@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image: url(logo/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.box-cadastro{
+    width: 325px;
+    height: 400px;
+    background-color: #ffffff77;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.box-imag{
+    display: flex;
+    align-items: center;
+}
+
+
+.box-cadastro label{
+    display: block;
+    color: #ffffff;
+
+}
+
+.box-cadastro input[type='text'], input[type='password']{
+    width: 150%;
+    line-height: 30px;
+    border: none;
+    
+}
+
+.box-cadastro input[type='text']{
+    margin-bottom: 20px;
+    
+}
+
+.box-cadastro a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box-cadastro input[type='submit']{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ff6347;
+    color: #ffffff;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+   
+}
